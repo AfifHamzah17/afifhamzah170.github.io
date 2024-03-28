@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HIN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-custom navbar-mainbg" id="home">
+        <a class="navbar-brand" href="#">
+            <img src="Agent_A.png" width="120" height="40" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#packages">Our Package</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Call Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="text">
+            <div class="text-1">
+                <h2>Your Trusted Travel Agent's</h2>
+            </div>
+            <br>
+            <div class="text-2">
+                <h4>Your happiness is our happiness</h4>
+            </div>
+            <br><br>
+        </section>
+        <div id="hero">
+            <div class="hero-image">
+                <img src="image1_01.jpg">
+                <div class="hero-text" >
+                    <p>"Liburan jadi menyenangkan bersama Travel Agentku." </p>
+                    <div class="user-info">
+                        <div>
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" style="width: 50px; height: auto;">
+                        </div>
+                        <div class="user-details">
+                            <h3>Siti Maemunah</h3>
+                            <p>Ibu rumah tangga, 28</p>
+                            <hr>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <div class="hero-form">
+                <form action="">
+                    <h3>Contact Us<h3>
+                    <div class="hero-form-text">
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                    </div>
+                    <br>
+                    <br>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <br>
+                    <label for="interest">Interest</label>
+                    <select name="interest" id="interest">
+                        <option value="">What are You Interested in</option>
+                        <option value="package1">Package Travel 1</option>
+                        <option value="package2">Package Travel 2</option>
+                        <option value="package3">Package Travel 3</option>
+                        <option value="package4">Package Travel 4</option>
+                        <option value="package4">Package Travel 5</option>
+                        <option value="package4">Package Travel 6 </option>
+                    </select>                    
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <article>
+        <section id="packages" class="mt-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Travel Packages</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="VIET.png" class="card-img-top" alt="Indonesia - Vietnam">
+                            <div class="card-body" id="101">
+                                <h5 class="card-title">Indonesia - Vietnam</h5>
+                                <p class="card-text">Price: 6jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Accommodation in 4-star hotels</li>
+                                    <li>Guided city tours</li>
+                                    <li>Local cuisine experiences</li>
+                                    <li>Transportation between cities</li>
+                                    <li>Floating Market experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="MALAY.png" class="card-img-top" alt="Indonesia - Malaysia">
+                            <div class="card-body"id="102">
+                                <h5 class="card-title">Indonesia - Malaysia</h5>
+                                <p class="card-text">Price: 2jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Accommodation in budget-friendly hotels</li>
+                                    <li>Street food tasting tours</li>
+                                    <li>Transportation within Malaysia</li>
+                                    <li>Excursions to famous landmarks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="japan.jpg" class="card-img-top" alt="Indonesia - Japan">
+                            <div class="card-body" id="103">
+                                <h5 class="card-title">Indonesia - Japan</h5>
+                                <p class="card-text">Price: 15jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Luxury accommodation in top hotels</li>
+                                    <li>Private guided tours</li>
+                                    <li>Authentic Japanese dining experiences</li>
+                                    <li>Exclusive access to cultural events</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="sg.png" class="card-img-top" alt="Indonesia - Singapore">
+                            <div class="card-body" id="104">
+                                <h5 class="card-title">Indonesia - Singapore</h5>
+                                <p class="card-text">Price: 10jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Stay in luxury hotels with stunning views</li>
+                                    <li>Guided tours of famous attractions</li>
+                                    <li>Shopping excursions</li>
+                                    <li>Delicious Singaporean cuisine experiences</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="uk.jpg" class="card-img-top" alt="Indonesia - United Kingdom">
+                            <div class="card-body" id="105">
+                                <h5 class="card-title">Indonesia - United Kingdom</h5>
+                                <p class="card-text">Price: 20jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Accommodation in elegant British hotels</li>
+                                    <li>Guided tours of historic landmarks</li>
+                                    <li>Theater and cultural performances</li>
+                                    <li>Traditional English afternoon tea experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                            <img src="AUSSIE.jpg" class="card-img-top" alt="Indonesia - Australia">
+                            <div class="card-body" id="106">
+                                <h5 class="card-title">Indonesia - Australia</h5>
+                                <p class="card-text">Price: 18jt/person</p>
+                                <p class="card-text">What you get:</p>
+                                <ul class="card-text">
+                                    <li>Stay in beachfront resorts</li>
+                                    <li>Explore stunning natural landscapes</li>
+                                    <li>Wildlife encounters</li>
+                                    <li>Aussie BBQ experiences</li>
+                                    <li>National Gallery of Victoria Tour experiences</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">↑</button>
+        </section>
+    </article>    
+        <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h6>About Us</h6>
+                    <p class="text-justify">Agent A is your trusted travel companion, dedicated to making your journeys memorable and hassle-free.
+                         With a passion for adventure and customer satisfaction, we strive to exceed your expectations at every turn.</p>
+                </div>
+    
+                <div class="col-md-2">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">package travel 1</a></li>
+                        <li><a href="#">package travel 2</a></li>
+                        <li><a href="#">package travel 3</a></li>
+                        <li><a href="#">package travel 4</a></li>
+                    </ul>
+                </div>
+    
+                <div class="col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#101">About Us</a></li>
+                        <li><a href="#102">Contact Us</a></li>
+                        <li><a href="#103">Contribute</a></li>
+                        <li><a href="#104">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by <a href="#">Agent A</a>.
+                    </p>
+                </div>
+    
+                <div class="col-md-6">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"></a></li>
+                        <li><a class="twitter" href="#"></a></li>
+                        <li><a class="dribbble" href="#"></a></li>
+                        <li><a class="linkedin" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-9YEtGguyb++rRo6QZhUn8xHcx8IgP4DHwlsJZ+JpYb1Hz+hxU5QLKV5oJhwj2KvK" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
